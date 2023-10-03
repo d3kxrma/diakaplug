@@ -93,4 +93,4 @@ async for notification in async_diaka.session():
 ```
 
 # License
-This project is licensed under the [MIT License](ttps://github.com/d3kxrma/diakaplug/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/d3kxrma/diakaplug/blob/main/LICENSE).
