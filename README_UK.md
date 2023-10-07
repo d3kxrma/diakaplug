@@ -95,4 +95,4 @@ async for notification in async_diaka.session():
 ```
 
 # Ліцензія
-Цей проект поширюється на умовах [MIT License] (https://github.com/d3kxrma/diakaplug/blob/main/LICENSE).
+Цей проект поширюється на умовах [MIT License](https://github.com/d3kxrma/diakaplug/blob/main/LICENSE).
