@@ -10,15 +10,16 @@ classifiers = [
  
 setup(
   name='diakaplug',
-  version='0.0.1',
-  description='a simple library to receive notifications from diaka.ua',
+  version='0.0.2',
+  description='a simple python library to receive notifications from diaka.ua',
   long_description=open('README.md').read(),
+  long_description_content_type='text/markdown',
   url='https://github.com/d3kxrma/diakaplug',  
   author='dekxrma',
   author_email='qqdjnuxez@gmail.com',
   license='MIT', 
   classifiers=classifiers,
-  keywords='calculator', 
+  keywords='python, diaka, diaka api, diakapy',
   packages=find_packages(),
   install_requires=['sseclient', 'aiosseclient', 'requests', 'aiohttp', 'bs4'] 
 )

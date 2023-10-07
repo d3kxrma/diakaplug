@@ -1,6 +1,8 @@
 # DiakaPlug Library
 
-The DiakaPlug library provides a set of tools for interacting with the Diaka donation service, allowing you to send test notifications and parse incoming notifications from Diaka streams. This README.md file offers an overview of the library and its main features.
+The DiakaPlug is a Python library that provides a set of tools for interacting with the Diaka donation service. It allows you to send test notifications and parse incoming notifications from Diaka streams. This README.md file offers an overview of the library and its main features.
+
+Translation of [README.md into Ukrainian](https://github.com/d3kxrma/diakaplug/blob/main/README_UK.md).
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,7 +13,7 @@ The DiakaPlug library provides a set of tools for interacting with the Diaka don
 
 ## Installation
 
-To use the Diaka Python library, you'll need to install it via pip:
+To use the Diakaplug library, you'll need to install it via pip:
 
 ```bash
 pip install diakaplug
@@ -93,4 +95,4 @@ async for notification in async_diaka.session():
 ```
 
 # License
-This project is licensed under the [MIT License](ttps://github.com/d3kxrma/diakaplug/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/d3kxrma/diakaplug/blob/main/LICENSE).
