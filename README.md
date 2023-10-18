@@ -50,6 +50,21 @@ status_code = diaka.send_test_notification(
 # Parse a notification using a transaction ID and hash
 notification_data = diaka.parse_notification(transaction_id=123, hash="notification_hash")
 ```
+### Get Last Donations
+```python
+# Get last donations with optional parameters
+last_donations = diaka.get_last_donations(limit=10, test=2)
+```
+### Get Largest Donations
+```python
+# Get largest donations with optional parameters
+largest_donations = diaka.get_largest_donations(offset=86400, limit=10, test=2)
+```
+### Get Amount of Donations
+```python
+# Get amount of donations with optional parameters
+amount_of_donations = diaka.get_amount_of_donations(offset=86400, test=2)
+```
 ### Establishing a Session
 ```python
 # Establish a session with the SSE server and yield parsed notifications
@@ -86,6 +101,21 @@ status_code = await async_diaka.send_test_notification(
 ```python
 # Parse a notification using a transaction ID and hash
 notification_data = await async_diaka.parse_notification(transaction_id=123, hash="notification_hash")
+```
+### Get Last Donations
+```python
+# Get last donations with optional parameters
+last_donations = diaka.get_last_donations(limit=10, test=2)
+```
+### Get Largest Donations
+```python
+# Get largest donations with optional parameters
+largest_donations = diaka.get_largest_donations(offset=86400, limit=10, test=2)
+```
+### Get Amount of Donations
+```python
+# Get amount of donations with optional parameters
+amount_of_donations = diaka.get_amount_of_donations(offset=86400, test=2)
 ```
 ### Establishing a Session
 ```python
