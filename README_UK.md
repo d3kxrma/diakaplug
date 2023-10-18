@@ -50,12 +50,6 @@ status_code = diaka.send_test_notification(
 # Розбір повідомлення за ідентифікатором транзакції та хешем
 notification_data = diaka.parse_notification(transaction_id=123, hash="notification_hash")
 ```
-### Створення сеансу
-```python
-# Встановлення сеансу з SSE-сервером та отримання обробленого повідомлення
-for notification in diaka.session():
-    print(notification)
-```
 ### Отримати останні пожертви
 ```python
 # Отримати останні пожертви з необов'язковими параметрами
@@ -71,6 +65,13 @@ largest_donations = diaka.get_largest_donations(offset=86400, limit=10, test=2)
 # Отримати суму пожертвувань з необов'язковими параметрами
 amount_of_donations = diaka.get_amount_of_donations(offset=86400, test=2)
 ```
+### Створення сеансу
+```python
+# Встановлення сеансу з SSE-сервером та отримання обробленого повідомлення
+for notification in diaka.session():
+    print(notification)
+```
+
 ### Асинхронний клас AsyncDiaka
 
 Клас `AsyncDiaka` надає асинхронні методи для взаємодії з сервісом Diaka.
